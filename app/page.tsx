@@ -23,7 +23,7 @@ export default function HomePage() {
         <div className="flex flex-col items-center md:items-start gap-6">
 
           <div className="text-center md:text-left">
-            <h1 className="text-4xl font-bold">Mafia Analyzer</h1>
+            <h1 className="text-4xl font-bold">Mafia</h1>
             <p className="text-gray-600 mt-2 max-w-md">
               A lightweight tool for hosts to manage offline Mafia games,
               track votes, rounds, night actions, and review game history.
