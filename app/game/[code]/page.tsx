@@ -3,7 +3,7 @@
 import { useParams } from "next/navigation"
 import { useEffect, useState, useRef } from "react"
 import { Network } from "vis-network"
-
+//test
 export default function GamePage(){
 
   const {code}=useParams()
