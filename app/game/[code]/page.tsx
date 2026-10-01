@@ -65,7 +65,14 @@ export default function GamePage(){
         game.phase==="night" ? "text-slate-100" : "text-black"
       }`}>
 
-        <h1 className="text-2xl font-bold mb-4">Game {code}</h1>
+        <header className="flex items-center gap-3 mb-4">
+          <img
+            src="/mafia.png"
+            alt="Mafia game"
+            className="h-12 w-12 rounded-xl object-cover shadow-sm ring-1 ring-black/10"
+          />
+          <h1 className="text-2xl font-bold">Game {code}</h1>
+        </header>
 
         <div className={`rounded-2xl border p-4 mb-4 ${
           game.phase==="night"
